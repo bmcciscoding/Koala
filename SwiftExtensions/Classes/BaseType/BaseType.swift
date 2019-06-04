@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+public extension QPNamespace where T == Int {
+    
+    var string: String {
+        return String(self.value)
+    }
+}
+
+public extension Int {
+    var string: String {
+        return String(self)
+    }
+}
