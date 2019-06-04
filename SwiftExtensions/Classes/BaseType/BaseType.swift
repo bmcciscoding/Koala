@@ -7,15 +7,10 @@
 
 import Foundation
 
-public extension QPNamespace where T == Int {
+public extension QPNamespaceProtocl where QPValue == Int {
     
     var string: String {
         return String(self.value)
     }
-}
-
-public extension Int {
-    var string: String {
-        return String(self)
-    }
+    
 }

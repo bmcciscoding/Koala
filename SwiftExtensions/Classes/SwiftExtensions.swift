@@ -30,30 +30,26 @@ public extension QPNamespaceable {
     
 }
 
+public protocol QPNamespaceProtocl {
+    
+    associatedtype QPValue
+    
+    var value: QPValue { get }
+    
+    init(value: QPValue)
+}
 
-public struct QPNamespace<T>: QPNamespaceable {
+
+public struct QPNamespace<T>: QPNamespaceProtocl {
     
-    let value: T 
+    public let value: T 
     
-    init(value: T) {
+    public init(value: T) {
         self.value = value
     }
-    
-    public var qp: T {
-        return self.value
-    }
-    
-    public static var qp: T.Type {
-        return T.self
-    }
-    
-    public typealias QPValue = T
         
 }
 
 extension NSObject: QPNamespaceable {}
 
-
-
-
-
+extension Int: QPNamespaceable {}

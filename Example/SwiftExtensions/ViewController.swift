@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.qp.rgb(100)
         
-        100.string
         
     }
 
