@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+public extension QPNamespace where T == UIColor {
+    
+    static func rgb(_ value: UInt) -> UIColor {
+        
+        
+        return UIColor.red
+    }
+    
+}
