@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        UIApplication.shared.qp.cacheURL
+        self.view.backgroundColor = UIColor.qp.rgb(100)
+        
+        100.string
         
     }
 
