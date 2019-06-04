@@ -1,8 +1,16 @@
 PODS:
   - SwiftExtensions (0.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - SwiftExtensions (from `../`)
+  - YYCategories (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - YYCategories
 
 EXTERNAL SOURCES:
   SwiftExtensions:
@@ -10,7 +18,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SwiftExtensions: fd6f6b95517c6e92619d762f436227e5d29adda9
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 819f14827f85f7aa77c830d045a9bd0c513c9649
+PODFILE CHECKSUM: d10d6e15962698794e57116e046abde0bc2ef57e
 
 COCOAPODS: 1.5.0
