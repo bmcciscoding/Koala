@@ -16,7 +16,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.qp.rgb(100)
+//        
+        let btn = UIButton.init()
+        btn.backgroundColor = UIColor.blue
+        btn.frame = CGRect.init(x: 0, y: 0, width: 100, height: 100)
+        btn.qp.addEvent(.touchUpInside) { (sender) in
+            print("Xxxx")
+        }
         
+        self.view.addSubview(btn)
         
     }
 
