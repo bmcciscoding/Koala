@@ -30,17 +30,8 @@ public extension QPNamespaceable {
     
 }
 
-public protocol QPNamespaceProtocl {
-    
-    associatedtype QPValue
-    
-    var value: QPValue { get }
-    
-    init(value: QPValue)
-}
 
-
-public struct QPNamespace<T>: QPNamespaceProtocl {
+public struct QPNamespace<T> {
     
     public let value: T 
     

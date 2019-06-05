@@ -7,10 +7,18 @@
 
 import Foundation
 
-public extension QPNamespaceProtocl where QPValue == Int {
+public extension QPNamespace where T == Int {
     
     var string: String {
         return String(self.value)
+    }
+    
+    var double: Double {
+        return Double(self.value)
+    }
+    
+    var cgFloat: CGFloat {
+        return CGFloat(self.double)
     }
     
 }
