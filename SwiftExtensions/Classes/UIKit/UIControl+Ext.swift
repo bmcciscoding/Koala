@@ -19,10 +19,7 @@ class UIControlTarget {
     
     init(event: UIControlEvents, 
          completionHandler: @escaping UIControlEventCompletionHandler) {
-        
-
         self.event = event
-        
         self.completionHandler = completionHandler
     }
     

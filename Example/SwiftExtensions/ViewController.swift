@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.backgroundColor = UIColor.qp.rgb(100)
+        self.view.backgroundColor = UIColor.qp.rgba(0x333333)
 //        
         let btn = UIButton.init()
         btn.backgroundColor = UIColor.blue
