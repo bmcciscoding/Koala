@@ -7,6 +7,8 @@
 
 import Foundation
 
+extension Date: QPNamespaceable {}
+
 public extension QPNamespace where T == Date {
     
     var year: Int {

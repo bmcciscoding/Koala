@@ -42,5 +42,3 @@ public struct QPNamespace<T> {
 }
 
 extension NSObject: QPNamespaceable {}
-
-extension Int: QPNamespaceable {}

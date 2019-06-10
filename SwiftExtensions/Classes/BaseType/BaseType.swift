@@ -7,6 +7,8 @@
 
 import Foundation
 
+extension Int: QPNamespaceable {}
+
 public extension QPNamespace where T == Int {
     
     var string: String {

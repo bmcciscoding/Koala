@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         self.view.addSubview(btn)
         
         let date = Date.init()
+        print(date.qp.year)
 
         
     }
