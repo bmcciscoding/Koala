@@ -7,29 +7,6 @@
 
 import Foundation
 
-
-public typealias UIControlEventCompletionHandler = (UIControl) -> Void
-
-
-class UIControlTarget {
-    
-    var event: UIControlEvents
-    
-    var completionHandler: UIControlEventCompletionHandler
-    
-    init(event: UIControlEvents, 
-         completionHandler: @escaping UIControlEventCompletionHandler) {
-        self.event = event
-        self.completionHandler = completionHandler
-    }
-    
-    @objc func onTargetEvent(sender: UIControl) {
-        self.completionHandler(sender)
-    }
-    
-}
-
-
 public extension QPNamespace where T: UIControl {
     
     func addEvent(_ event: UIControlEvents, 
@@ -58,4 +35,25 @@ extension UIControl {
         
     }
         
+}
+
+public typealias UIControlEventCompletionHandler = (UIControl) -> Void
+
+
+class UIControlTarget {
+    
+    var event: UIControlEvents
+    
+    var completionHandler: UIControlEventCompletionHandler
+    
+    init(event: UIControlEvents,
+         completionHandler: @escaping UIControlEventCompletionHandler) {
+        self.event = event
+        self.completionHandler = completionHandler
+    }
+    
+    @objc func onTargetEvent(sender: UIControl) {
+        self.completionHandler(sender)
+    }
+    
 }

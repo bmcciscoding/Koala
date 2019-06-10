@@ -272,7 +272,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -281,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		297E772845885564DF3D638F /* [CP] Check Pods Manifest.lock */ = {
@@ -326,7 +326,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftExtensions/SwiftExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -335,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
