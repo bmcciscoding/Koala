@@ -64,7 +64,8 @@ public extension QPNamespace where T == Date {
     
     /// yyyy-MM-dd'T'HH:mm:ssZZZZZ
     func string(with format: String,
-                timeZone: TimeZone? = nil, locale: Locale? = nil) -> String {
+                timeZone: TimeZone? = nil,
+                locale: Locale? = nil) -> String {
         let maker = DateFormatter.init()
         maker.dateFormat = format
         if timeZone != nil {
