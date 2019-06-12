@@ -7,8 +7,29 @@
 
 import Foundation
 
+public extension QPNamespace where T: UIView {
+    
+    func removeAllSubviews() {
+        self.value.subviews.forEach { (subView) in
+            subView.removeFromSuperview()
+        }
+    }
+    
+    var viewController: UIViewController? {
+        var superView = self.value.superview
+        while (superView != nil) {
+            if superView?.next is UIViewController {
+                return superView?.next as? UIViewController
+            } else {
+                superView = superView?.superview
+            }
+        }
+        return nil
+    }
+}
 
-extension QPNamespace where T: UIView {
+// layout
+public extension QPNamespace where T: UIView {
     
     var left: CGFloat {
         set {
