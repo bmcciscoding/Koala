@@ -9,6 +9,20 @@ import Foundation
 
 public extension QPNamespace where T: UIView {
     
+    var snapshot: UIImage? {
+        
+        UIGraphicsBeginImageContext(self.value.bounds.size)
+        if let ctx = UIGraphicsGetCurrentContext() {
+            self.value.layer .render(in: ctx)
+            return UIGraphicsGetImageFromCurrentImageContext()
+        }
+        
+        return nil
+    }
+}
+
+public extension QPNamespace where T: UIView {
+    
     func removeAllSubviews() {
         self.value.subviews.forEach { (subView) in
             subView.removeFromSuperview()
