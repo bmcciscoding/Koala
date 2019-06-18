@@ -24,6 +24,11 @@ class ViewController: UIViewController {
             print("Xxxx")
         }
         
+        let str = "012345"
+        print(str.qp[0])
+        print(str.qp[1])
+        print(str.qp[2])
+        
         self.view.addSubview(btn)
         
         let date = Date.init()

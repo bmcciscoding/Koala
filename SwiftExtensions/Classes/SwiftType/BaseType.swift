@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Int
 extension Int: QPNamespaceable {}
 
 public extension QPNamespace where T == Int {
@@ -24,6 +25,7 @@ public extension QPNamespace where T == Int {
     }
 }
 
+// MARK: - Double
 extension Double: QPNamespaceable {}
 
 public extension QPNamespace where T == Double {
@@ -41,6 +43,8 @@ public extension QPNamespace where T == Double {
     }
 }
 
+
+// MARK: - String
 extension String: QPNamespaceable {}
 
 public extension QPNamespace where T == String {
@@ -55,6 +59,16 @@ public extension QPNamespace where T == String {
     
     var cgFloat: CGFloat {
         return self.double.qp.cgFloat
+    }
+}
+
+public extension QPNamespace where T == String {
+    
+    subscript(at: Int) -> String {
+        let str = self.value
+        let index = str.index(str.startIndex, offsetBy: at)
+        let c = str[index]
+        return String.init(c)
     }
 }
 
