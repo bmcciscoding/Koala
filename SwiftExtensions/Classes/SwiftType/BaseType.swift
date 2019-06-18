@@ -20,9 +20,42 @@ public extension QPNamespace where T == Int {
     }
     
     var cgFloat: CGFloat {
-        return CGFloat(self.double)
+        return CGFloat(self.value)
+    }
+}
+
+extension Double: QPNamespaceable {}
+
+public extension QPNamespace where T == Double {
+    
+    var int: Int {
+        return Int(self.value)
     }
     
+    var string: String {
+        return String(self.value)
+    }
+    
+    var cgFloat: CGFloat {
+        return CGFloat(self.value)
+    }
+}
+
+extension String: QPNamespaceable {}
+
+public extension QPNamespace where T == String {
+    
+    var int: Int {
+        return Int(self.value)!
+    }
+    
+    var double: Double {
+        return Double(self.value)!
+    }
+    
+    var cgFloat: CGFloat {
+        return self.double.qp.cgFloat
+    }
 }
 
 
