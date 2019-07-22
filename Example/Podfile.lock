@@ -1,11 +1,11 @@
 PODS:
-  - SwiftExtensions (0.1.0)
+  - Koala (0.0.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
-  - SwiftExtensions (from `../`)
+  - Koala (from `../`)
   - YYCategories (~> 1.0.4)
 
 SPEC REPOS:
@@ -13,13 +13,13 @@ SPEC REPOS:
     - YYCategories
 
 EXTERNAL SOURCES:
-  SwiftExtensions:
+  Koala:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftExtensions: ff6ab1727cfbcc23b643fb04ac8cff25eaa8c792
+  Koala: 4367ca6281a320e7bbaeeb652d91b238b25b8c85
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: d10d6e15962698794e57116e046abde0bc2ef57e
+PODFILE CHECKSUM: 7cfc817ec5c3ad3491092702c6a36e8518f500a7
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

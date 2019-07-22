@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SwiftExtensions_Example' do
-  pod 'SwiftExtensions', :path => '../'
+  pod 'Koala', :path => '../'
 
   target 'SwiftExtensions_Tests' do
     inherit! :search_paths

@@ -1,4 +1,4 @@
-# You need to register a session first
+# Koala
 
 [![CI Status](https://img.shields.io/travis/bmcciscoding@gmail.com/Koala.svg?style=flat)](https://travis-ci.org/bmcciscoding@gmail.com/SwiftExtensions)
 [![Version](https://img.shields.io/cocoapods/v/Koala.svg?style=flat)](https://cocoapods.org/pods/SwiftExtensions)

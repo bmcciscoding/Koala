@@ -45,7 +45,7 @@
 		7353D217B76F39891A5D05B3 /* Pods_SwiftExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		851F20740DB60F169D43B739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9CDB04435766BDF95719CE1F /* SwiftExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftExtensions.podspec; path = ../SwiftExtensions.podspec; sourceTree = "<group>"; };
+		9CDB04435766BDF95719CE1F /* SwiftExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftExtensions.podspec; path = ../SwiftExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E01698FC89AA7DFC45642CB1 /* Pods-SwiftExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F1D3D72022A6C31600F7D715 /* UIApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationTests.swift; sourceTree = "<group>"; };
@@ -327,11 +327,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftExtensions/SwiftExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/Koala/Koala.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koala.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

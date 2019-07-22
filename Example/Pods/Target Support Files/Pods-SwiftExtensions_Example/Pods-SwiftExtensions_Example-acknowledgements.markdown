@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SwiftExtensions
+## Koala
 
 Copyright (c) 2019 bmcciscoding@gmail.com <bmcciscoding@gmail.com>
 
