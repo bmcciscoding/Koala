@@ -27,13 +27,6 @@ public extension QPNamespace where T == UIApplication {
     
     var tmpPath: String {
         return NSTemporaryDirectory()
-    }
-    
-}
-
-public func test() {
-    
-    let url = UIApplication.shared.qp.cacheURL
-    print(url)
+    }    
 }
 
