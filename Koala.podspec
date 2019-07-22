@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SwiftExtensions'
+  s.name             = 'Koala'
   s.version          = '0.0.1'
   s.summary          = '快速开发 Swift iOS App.'
 
