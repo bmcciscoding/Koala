@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftExtensions
+import Koala
 
 class ViewController: UIViewController {
 

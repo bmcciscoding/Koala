@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SwiftExtensions_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SwiftExtensions_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_Koala_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Koala_TestsVersionString[];
 

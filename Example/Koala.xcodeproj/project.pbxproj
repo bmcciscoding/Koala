@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18E233E9DCB8BB23A48D89A0 /* Pods_SwiftExtensions_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585EFDEBE7199CB7C6E5F5F9 /* Pods_SwiftExtensions_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BACB9C14630B66B3238AA52C /* Pods_SwiftExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7353D217B76F39891A5D05B3 /* Pods_SwiftExtensions_Tests.framework */; };
+		D3F768E10843748D566582B4 /* Pods_Koala_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9E50167A0C915ACEDBEB18 /* Pods_Koala_Example.framework */; };
 		F1D3D72222A6C31600F7D715 /* UIApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D72022A6C31600F7D715 /* UIApplicationTests.swift */; };
+		FEC4E0910CA08B9A2A043AAF /* Pods_Koala_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35031B017E403926B7A61AFA /* Pods_Koala_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +30,28 @@
 
 /* Begin PBXFileReference section */
 		13A2F0B8CC86938ED8E9D41D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16D759857E01AEFAD4F0BF12 /* Pods-Koala_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Tests/Pods-Koala_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24C6D6A4058FB54ECA36ABA5 /* Pods-SwiftExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		585EFDEBE7199CB7C6E5F5F9 /* Pods_SwiftExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* SwiftExtensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35031B017E403926B7A61AFA /* Pods_Koala_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koala_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Example/Pods-Koala_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* Koala_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koala_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* SwiftExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* Koala_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Koala_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7353D217B76F39891A5D05B3 /* Pods_SwiftExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		851F20740DB60F169D43B739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CDB04435766BDF95719CE1F /* SwiftExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftExtensions.podspec; path = ../SwiftExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC57080DF95A98775E449936 /* Pods-Koala_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Tests/Pods-Koala_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Example/Pods-Koala_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E01698FC89AA7DFC45642CB1 /* Pods-SwiftExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF9E50167A0C915ACEDBEB18 /* Pods_Koala_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koala_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D3D72022A6C31600F7D715 /* UIApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E233E9DCB8BB23A48D89A0 /* Pods_SwiftExtensions_Example.framework in Frameworks */,
+				D3F768E10843748D566582B4 /* Pods_Koala_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACB9C14630B66B3238AA52C /* Pods_SwiftExtensions_Tests.framework in Frameworks */,
+				FEC4E0910CA08B9A2A043AAF /* Pods_Koala_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +78,8 @@
 		00CAAE97B43DCF85257B59ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				585EFDEBE7199CB7C6E5F5F9 /* Pods_SwiftExtensions_Example.framework */,
-				7353D217B76F39891A5D05B3 /* Pods_SwiftExtensions_Tests.framework */,
+				EF9E50167A0C915ACEDBEB18 /* Pods_Koala_Example.framework */,
+				35031B017E403926B7A61AFA /* Pods_Koala_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,8 +99,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SwiftExtensions_Example.app */,
-				607FACE51AFB9204008FA782 /* SwiftExtensions_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* Koala_Example.app */,
+				607FACE51AFB9204008FA782 /* Koala_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +162,10 @@
 				24C6D6A4058FB54ECA36ABA5 /* Pods-SwiftExtensions_Example.release.xcconfig */,
 				CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */,
 				7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */,
+				416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */,
+				D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */,
+				16D759857E01AEFAD4F0BF12 /* Pods-Koala_Tests.debug.xcconfig */,
+				BC57080DF95A98775E449936 /* Pods-Koala_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -165,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SwiftExtensions_Example */ = {
+		607FACCF1AFB9204008FA782 /* Koala_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftExtensions_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Koala_Example" */;
 			buildPhases = (
 				7A5658C226EDED9076FBD0B2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -179,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftExtensions_Example;
+			name = Koala_Example;
 			productName = SwiftExtensions;
-			productReference = 607FACD01AFB9204008FA782 /* SwiftExtensions_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* Koala_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* SwiftExtensions_Tests */ = {
+		607FACE41AFB9204008FA782 /* Koala_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftExtensions_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Koala_Tests" */;
 			buildPhases = (
 				297E772845885564DF3D638F /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -199,9 +207,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = SwiftExtensions_Tests;
+			name = Koala_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* SwiftExtensions_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* Koala_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftExtensions" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Koala" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,8 +247,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SwiftExtensions_Example */,
-				607FACE41AFB9204008FA782 /* SwiftExtensions_Tests */,
+				607FACCF1AFB9204008FA782 /* Koala_Example */,
+				607FACE41AFB9204008FA782 /* Koala_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +280,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Koala_Tests/Pods-Koala_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -281,7 +289,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Koala_Tests/Pods-Koala_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		297E772845885564DF3D638F /* [CP] Check Pods Manifest.lock */ = {
@@ -295,7 +303,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftExtensions_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Koala_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -313,7 +321,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftExtensions_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Koala_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,7 +334,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Koala_Example/Pods-Koala_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Koala/Koala.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -335,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Koala_Example/Pods-Koala_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,7 +372,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SwiftExtensions_Example */;
+			target = 607FACCF1AFB9204008FA782 /* Koala_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,7 +498,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E01698FC89AA7DFC45642CB1 /* Pods-SwiftExtensions_Example.debug.xcconfig */;
+			baseConfigurationReference = 416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftExtensions/Info.plist;
@@ -505,7 +513,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24C6D6A4058FB54ECA36ABA5 /* Pods-SwiftExtensions_Example.release.xcconfig */;
+			baseConfigurationReference = D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftExtensions/Info.plist;
@@ -520,7 +528,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */;
+			baseConfigurationReference = 16D759857E01AEFAD4F0BF12 /* Pods-Koala_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -536,13 +544,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExtensions_Example.app/SwiftExtensions_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala_Example.app/Koala_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */;
+			baseConfigurationReference = BC57080DF95A98775E449936 /* Pods-Koala_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -554,14 +562,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExtensions_Example.app/SwiftExtensions_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala_Example.app/Koala_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftExtensions" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Koala" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -570,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftExtensions_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Koala_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -579,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftExtensions_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Koala_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
