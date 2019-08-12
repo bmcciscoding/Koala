@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 end
 
-# 给 git 打 tag，并推到 remote 
-# pod spec lint xx.podspec，检查
-# pod trunk push，发布新版本
+# 打 git tag      : git push origin [branch name] [tag number]
+# 检查 podspec    : pod spec lint [podsepc]            
+# 发布 pod        : pod trunk push
