@@ -1,5 +1,7 @@
 use_frameworks!
 
+platform :ios, '9.0'
+
 target 'SwiftExtensions_Example' do
   pod 'Koala', :path => '../'
 

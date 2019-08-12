@@ -1,5 +1,5 @@
 PODS:
-  - Koala (0.0.1)
+  - Koala (0.0.2)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Koala: 4367ca6281a320e7bbaeeb652d91b238b25b8c85
+  Koala: 5fbc04978649c8c2c07d74790abfa60fcba1999b
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 7cfc817ec5c3ad3491092702c6a36e8518f500a7
+PODFILE CHECKSUM: ed2e1b01819c0a3fdcaa052ffe9785831b98a6be
 
 COCOAPODS: 1.7.5
