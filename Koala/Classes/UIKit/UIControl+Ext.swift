@@ -1,6 +1,6 @@
 //
 //  UIControl+Ext.swift
-//  SwiftExtensions
+//  Koala
 //
 //  Created by QiuPeng on 2019/6/5.
 //

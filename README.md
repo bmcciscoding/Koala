@@ -1,9 +1,9 @@
 # Koala
 
 [![CI Status](https://img.shields.io/travis/bmcciscoding@gmail.com/Koala.svg?style=flat)](https://travis-ci.org/bmcciscoding@gmail.com/SwiftExtensions)
-[![Version](https://img.shields.io/cocoapods/v/Koala.svg?style=flat)](https://cocoapods.org/pods/SwiftExtensions)
-[![License](https://img.shields.io/cocoapods/l/Koala.svg?style=flat)](https://cocoapods.org/pods/SwiftExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/Koala.svg?style=flat)](https://cocoapods.org/pods/SwiftExtensions)
+[![Version](https://img.shields.io/cocoapods/v/Koala.svg?style=flat)](https://cocoapods.org/pods/Koala)
+[![License](https://img.shields.io/cocoapods/l/Koala.svg?style=flat)](https://cocoapods.org/pods/Koala)
+[![Platform](https://img.shields.io/cocoapods/p/Koala.svg?style=flat)](https://cocoapods.org/pods/Koala)
 
 ## Example
 

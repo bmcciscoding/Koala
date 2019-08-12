@@ -1,6 +1,6 @@
 //
 //  UIApplication+Ext.swift
-//  Pods-SwiftExtensions_Example
+//  Pods-Koala_Example
 //
 //  Created by QiuPeng on 2019/6/4.
 //

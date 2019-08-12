@@ -1,6 +1,6 @@
 //
 //  BaseType.swift
-//  SwiftExtensions
+//  Koala
 //
 //  Created by QiuPeng on 2019/6/4.
 //

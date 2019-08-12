@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SwiftExtensions */,
+				607FACD21AFB9204008FA782 /* Example for Koala */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				8E7BCF4174057C3542AD4AFB /* Pods */,
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for SwiftExtensions */ = {
+		607FACD21AFB9204008FA782 /* Example for Koala */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -115,7 +115,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for SwiftExtensions";
+			name = "Example for Koala";
 			path = SwiftExtensions;
 			sourceTree = "<group>";
 		};
