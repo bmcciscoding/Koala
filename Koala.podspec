@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Koala'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '快速开发 Swift iOS App.'
 
 # This description is used to generate tags and improve search results.
@@ -42,3 +42,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+# 给 git 打 tag，并推到 remote 
+# pod spec lint xx.podspec，检查
+# pod trunk push，发布新版本
