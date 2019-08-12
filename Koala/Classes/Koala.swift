@@ -11,7 +11,7 @@ public protocol KoalaNamespaceable {
     
     associatedtype Koala
     
-    var kl: Koala { get }
+    var kl: Koala { get set }
     
     static var kl: Koala.Type { get }
     
@@ -21,7 +21,12 @@ public protocol KoalaNamespaceable {
 public extension KoalaNamespaceable {
     
     var kl: KoalaNamespace<Self> {
-        return KoalaNamespace.init(value: self)
+        set {
+            
+        }
+        get {
+            return KoalaNamespace.init(value: self)
+        }
     }
     
     static var kl: KoalaNamespace<Self>.Type {
@@ -31,7 +36,7 @@ public extension KoalaNamespaceable {
 }
 
 
-public struct KoalaNamespace<T> {
+public class KoalaNamespace<T> {
     
     public let value: T 
     

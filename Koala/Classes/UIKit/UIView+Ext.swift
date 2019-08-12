@@ -112,3 +112,47 @@ public extension KoalaNamespace where T: UIView {
     }
     
 }
+
+
+// MARK: - Gesture
+
+var AssociateObjectKey_Gesture_OnTap = "kl.onTap"
+
+public typealias OnTap = (UIView, UITapGestureRecognizer) -> Void
+
+public extension KoalaNamespace where T: UIView {
+    
+    
+    func onTap(_ closure: @escaping OnTap) {
+        let ges = UITapGestureRecognizer.init { (gesture) in  
+            closure(self.value, gesture as! UITapGestureRecognizer)
+        }
+        self.value.addGestureRecognizer(ges)
+    }
+    
+}
+
+extension UIGestureRecognizer {
+    
+    typealias Handle = (UIGestureRecognizer) -> Void
+    
+    convenience init(handler: @escaping Handle) {
+        self.init()
+        self.handler = handler
+        self.addTarget(self, action: #selector(handleGesture(_:)))
+    }
+    
+    var handler: Handle? {
+        set {
+            objc_setAssociatedObject(self, &AssociateObjectKey_Gesture_OnTap, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+        get {
+            return objc_getAssociatedObject(self, &AssociateObjectKey_Gesture_OnTap) as? Handle
+        }
+    }
+    
+    @objc func handleGesture(_ ges: UIGestureRecognizer) {
+        self.handler?(ges)
+    }
+    
+}
