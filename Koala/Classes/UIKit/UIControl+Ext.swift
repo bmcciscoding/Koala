@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension QPNamespace where T: UIControl {
+public extension KoalaNamespace where T: UIControl {
     
     func addEvent(_ event: UIControlEvents, 
                   _ completeHandler: @escaping UIControlEventCompletionHandler) {

@@ -7,9 +7,9 @@
 
 import Foundation
 
-extension Date: QPNamespaceable {}
+extension Date: KoalaNamespaceable {}
 
-public extension QPNamespace where T == Date {
+public extension KoalaNamespace where T == Date {
     
     var year: Int {
         return Calendar.current.component(.year, from: self.value)
@@ -42,23 +42,23 @@ public extension QPNamespace where T == Date {
     
     var isYesterday: Bool {
         let date = self.addDays(1)
-        return date.qp.isToday
+        return date.kl.isToday
     }
     
     var isToday: Bool {
         if fabs(self.value.timeIntervalSinceNow) >= 60 * 60 * 24 {
             return false
         }
-        return self.day == Date.init().qp.day
+        return self.day == Date.init().kl.day
     }
     
     var isTomorrow: Bool {
         let date = self.addDays(-1)
-        return date.qp.isToday
+        return date.kl.isToday
     }
     
     func addDays(_ count: Int) -> Date {
-        let tTime = self.value.timeIntervalSinceReferenceDate + (60 * 60 * 24) * count.qp.double
+        let tTime = self.value.timeIntervalSinceReferenceDate + (60 * 60 * 24) * count.kl.double
         return Date.init(timeIntervalSinceReferenceDate: tTime)
     }
     

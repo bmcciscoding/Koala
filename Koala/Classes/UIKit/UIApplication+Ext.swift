@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension QPNamespace where T == UIApplication {
+public extension KoalaNamespace where T == UIApplication {
     
     var documentsURL: URL? {
         return FileManager.default.urls(for: .userDirectory, in: .userDomainMask).first

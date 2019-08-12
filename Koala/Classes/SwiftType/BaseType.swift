@@ -8,9 +8,9 @@
 import Foundation
 
 // MARK: - Int
-extension Int: QPNamespaceable {}
+extension Int: KoalaNamespaceable {}
 
-public extension QPNamespace where T == Int {
+public extension KoalaNamespace where T == Int {
     
     var string: String {
         return String(self.value)
@@ -26,9 +26,9 @@ public extension QPNamespace where T == Int {
 }
 
 // MARK: - Double
-extension Double: QPNamespaceable {}
+extension Double: KoalaNamespaceable {}
 
-public extension QPNamespace where T == Double {
+public extension KoalaNamespace where T == Double {
     
     var int: Int {
         return Int(self.value)
@@ -45,9 +45,9 @@ public extension QPNamespace where T == Double {
 
 
 // MARK: - String
-extension String: QPNamespaceable {}
+extension String: KoalaNamespaceable {}
 
-public extension QPNamespace where T == String {
+public extension KoalaNamespace where T == String {
     
     var int: Int {
         return Int(self.value)!
@@ -58,11 +58,11 @@ public extension QPNamespace where T == String {
     }
     
     var cgFloat: CGFloat {
-        return self.double.qp.cgFloat
+        return self.double.kl.cgFloat
     }
 }
 
-public extension QPNamespace where T == String {
+public extension KoalaNamespace where T == String {
     
     subscript(at: Int) -> String {
         let str = self.value

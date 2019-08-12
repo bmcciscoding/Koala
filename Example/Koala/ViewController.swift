@@ -15,24 +15,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.backgroundColor = UIColor.qp.rgba(0x333333)
+        self.view.backgroundColor = UIColor.kl.rgba(0x333333)
 //        
         let btn = UIButton.init()
         btn.backgroundColor = UIColor.blue
         btn.frame = CGRect.init(x: 0, y: 0, width: 100, height: 100)
-        btn.qp.addEvent(.touchUpInside) { (sender) in
+        btn.kl.addEvent(.touchUpInside) { (sender) in
             print("Xxxx")
         }
         
         let str = "012345"
-        print(str.qp[0])
-        print(str.qp[1])
-        print(str.qp[2])
+        print(str.kl[0])
+        print(str.kl[1])
+        print(str.kl[2])
         
         self.view.addSubview(btn)
         
         let date = Date.init()
-        print(date.qp.year)
+        print(date.kl.year)
 
         
     }

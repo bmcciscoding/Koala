@@ -49,7 +49,7 @@
 		80D4E55EFD93819F68B9E512DC52885E /* Pods-Koala_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798DEAA13330A46CA924ADE842658C6E /* Pods-Koala_Tests-dummy.m */; };
 		818D6E0F7D33ED77C0B3AA6D3E422317 /* UIApplication+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D01BDB2E55A4E55F27AD06933639E3C /* UIApplication+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81911AE43F1EB8C500AC641D57BBA4DB /* Pods-Koala_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB67D7C881137B7C1896870FFB22D2C /* Pods-Koala_Example-dummy.m */; };
-		860A24CF9207EBA8D83D15E9D4038717 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4D0E7AEFD1B62967421AA0C4CE109 /* SwiftExtensions.swift */; };
+		860A24CF9207EBA8D83D15E9D4038717 /* Koala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4D0E7AEFD1B62967421AA0C4CE109 /* Koala.swift */; };
 		8E70772D33C42D8E2B50229E4880E915 /* UIGestureRecognizer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 777AFD58B4191F84A2398763BC5502C3 /* UIGestureRecognizer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E71F459799F304AE84918874EC7F06A /* YYCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DC1CC8C7EF50AD6317EA045C1D40 /* YYCategories-dummy.m */; };
 		90B4FA7D1429DBE49DB5A7D7F959C9F9 /* UITextField+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F945395C5D3CBA6F5818D6C6205993D /* UITextField+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -129,7 +129,7 @@
 		0B11DC1CC8C7EF50AD6317EA045C1D40 /* YYCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCategories-dummy.m"; sourceTree = "<group>"; };
 		0B1E43DE6E113498FC599378E5109F51 /* NSKeyedUnarchiver+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+YYAdd.m"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m"; sourceTree = "<group>"; };
 		0CA2015D9BD2C02F000800D6B72BBE90 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "YYCategories/UIKit/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
-		0CF4D0E7AEFD1B62967421AA0C4CE109 /* SwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftExtensions.swift; path = Koala/Classes/SwiftExtensions.swift; sourceTree = "<group>"; };
+		0CF4D0E7AEFD1B62967421AA0C4CE109 /* Koala.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Koala.swift; path = Koala/Classes/Koala.swift; sourceTree = "<group>"; };
 		0EF8E8B7B49EFA63C4149D82A33EC78F /* YYCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCategories-umbrella.h"; sourceTree = "<group>"; };
 		11112317B995F0D8BD1BEC810F8FAD87 /* UIColor+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		1379EC6D4F7FA2102D339287B5BD2E9E /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYCategories/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
@@ -137,13 +137,13 @@
 		14F629C029327C3217368F9A0C5555B8 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYCategories/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		15B185B334AAD08FA0D523518B4C50A8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		16C9E7E83216041E3F9FA6A483EA1BAF /* Koala-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Koala-Info.plist"; sourceTree = "<group>"; };
-		1716B5FBCF0DF55C120AC52CFC22452D /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCategories.framework; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1716B5FBCF0DF55C120AC52CFC22452D /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C00DB88B732A379745F89739347BE7 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAdd.m"; path = "YYCategories/Foundation/NSObject+YYAdd.m"; sourceTree = "<group>"; };
-		1B7C3A28EE6223E1F47EE7ED19C1A4AE /* Koala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koala.framework; path = Koala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7C3A28EE6223E1F47EE7ED19C1A4AE /* Koala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9BD11247822E99E0F65C50C0F0211B /* UIScreen+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+YYAdd.m"; path = "YYCategories/UIKit/UIScreen+YYAdd.m"; sourceTree = "<group>"; };
 		1C766B81B0E77361C81D032C2A7D707D /* Pods-Koala_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Koala_Tests.modulemap"; sourceTree = "<group>"; };
 		1D01BDB2E55A4E55F27AD06933639E3C /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YYAdd.h"; path = "YYCategories/UIKit/UIApplication+YYAdd.h"; sourceTree = "<group>"; };
-		1E4F7AD2370729BAD7D277F24F630371 /* Pods_Koala_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Koala_Tests.framework; path = "Pods-Koala_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4F7AD2370729BAD7D277F24F630371 /* Pods_Koala_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koala_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB67D7C881137B7C1896870FFB22D2C /* Pods-Koala_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Koala_Example-dummy.m"; sourceTree = "<group>"; };
 		1FABAEFDAF187EF183AF7D00998FB265 /* NSString+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYAdd.h"; path = "YYCategories/Foundation/NSString+YYAdd.h"; sourceTree = "<group>"; };
 		2327D7444F442E0223FDAEBB3576BDD9 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+YYAdd.h"; path = "YYCategories/UIKit/UIControl+YYAdd.h"; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		30FCD5386548798046CB5D8220CF7BFB /* Pods-Koala_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Koala_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33AEFA136A24105B15C67EEF91FC0591 /* YYCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategories.h; path = YYCategories/YYCategories.h; sourceTree = "<group>"; };
 		360D2312FA58116389AACEA6DAE72B60 /* Koala-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koala-umbrella.h"; sourceTree = "<group>"; };
-		36477A837BD5C96E1E05C888D5D3D76F /* Pods_Koala_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Koala_Example.framework; path = "Pods-Koala_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36477A837BD5C96E1E05C888D5D3D76F /* Pods_Koala_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koala_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F70B81807CC3BB3D75A71DE6E5FED1 /* Koala-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koala-prefix.pch"; sourceTree = "<group>"; };
 		3A16910256331CC5CE5679AEBEC61CB9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3C484F4EDCE479CD79B14420093B28B6 /* Koala.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Koala.modulemap; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		9589CF504266132B2A7F6563E0327C6D /* Pods-Koala_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Koala_Example.modulemap"; sourceTree = "<group>"; };
 		960AAECFDBA13F4423498CC63B477FDE /* UIControl+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Ext.swift"; sourceTree = "<group>"; };
 		963FF748F58ECDA608B317F8F701713E /* NSObject+YYAddForARC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForARC.m"; path = "YYCategories/Foundation/NSObject+YYAddForARC.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8DE213977DFBB0CB3FCA1E6044A8F4 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "YYCategories/Foundation/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		A6C5029EE4C130B2D2AC5E49E16E02F7 /* Pods-Koala_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Koala_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE15CEA3B26BA8582295C7E3A98A37A4 /* Pods-Koala_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Koala_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		B71B6AC09CF913496977CDA13FE60AF2 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YYAdd.m"; path = "YYCategories/Foundation/NSDate+YYAdd.m"; sourceTree = "<group>"; };
 		B7688EF269BC2A688A6A7660E034D85A /* Date+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		BB967355BB516D82FB1372AC329114DB /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYCategories/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
-		BD56C7562CE534F190E74D54B5C0A41C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD56C7562CE534F190E74D54B5C0A41C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BD89E019DC216C31DCE2CF7A81305B90 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYCategories/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
 		BE563D925693C5592B01E87D4DE70B1C /* Pods-Koala_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Koala_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEF8E4A04B852FBBE8CE941DD01CA257 /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYCategories/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
@@ -235,10 +235,10 @@
 		EC9243B6FD42D1207ADF310B97D55872 /* Koala-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Koala-dummy.m"; sourceTree = "<group>"; };
 		EF0518C5D4DAFCABE56A1193BE6416C4 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAdd.h"; path = "YYCategories/Foundation/NSObject+YYAdd.h"; sourceTree = "<group>"; };
 		F25FA4D3C3853B6735E43B5FCF30821A /* NSObject+YYAddForARC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForARC.h"; path = "YYCategories/Foundation/NSObject+YYAddForARC.h"; sourceTree = "<group>"; };
-		F62560C864B0124A306E325F3C83AD59 /* Koala.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Koala.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F62560C864B0124A306E325F3C83AD59 /* Koala.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Koala.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9DB8D5432CB2D0FFEA62979E50C23B8 /* Pods-Koala_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Koala_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FA9D7E9CC05A0D1000CECE850D5BE6F1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		FE07170E7EC959DE2372FC6D67FBFBC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE07170E7EC959DE2372FC6D67FBFBC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,7 +435,6 @@
 				5F3BE7DFA71F01C652BD133D1590CB63 /* no-arc */,
 				6B2DFCB91EC805D6A75E331C34D8BE68 /* Support Files */,
 			);
-			name = YYCategories;
 			path = YYCategories;
 			sourceTree = "<group>";
 		};
@@ -496,7 +495,7 @@
 		CD006986103D23737DF2469B8AE6FE02 /* Koala */ = {
 			isa = PBXGroup;
 			children = (
-				0CF4D0E7AEFD1B62967421AA0C4CE109 /* SwiftExtensions.swift */,
+				0CF4D0E7AEFD1B62967421AA0C4CE109 /* Koala.swift */,
 				66D8B2FE1F3084B7D552080A4AE10F32 /* Pod */,
 				FE430ECE0F981E644A0AED4DD173FCAD /* Support Files */,
 				6D903C85FFCC545837A282B7C097E932 /* SwiftType */,
@@ -802,7 +801,7 @@
 				CE034763EFD5326DF1D97E3DD2914C58 /* BaseType.swift in Sources */,
 				3158D47D688E1B7602D5A04588DA2E8F /* Date+Ext.swift in Sources */,
 				64F79C959A6A47C1673F3CB5F3A8AFCD /* Koala-dummy.m in Sources */,
-				860A24CF9207EBA8D83D15E9D4038717 /* SwiftExtensions.swift in Sources */,
+				860A24CF9207EBA8D83D15E9D4038717 /* Koala.swift in Sources */,
 				E6FC6DE74045D6C3CDEFF4ACA98538AA /* UIApplication+Ext.swift in Sources */,
 				3E8E3BCEB1ABC33BBE7AC3A32E112294 /* UIColor+Ext.swift in Sources */,
 				6AB526D2C5329D03899C5D065A1ADB38 /* UIControl+Ext.swift in Sources */,
@@ -991,8 +990,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

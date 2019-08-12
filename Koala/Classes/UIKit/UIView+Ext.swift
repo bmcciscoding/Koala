@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension QPNamespace where T: UIView {
+public extension KoalaNamespace where T: UIView {
     
     var snapshot: UIImage? {
         
@@ -21,7 +21,7 @@ public extension QPNamespace where T: UIView {
     }
 }
 
-public extension QPNamespace where T: UIView {
+public extension KoalaNamespace where T: UIView {
     
     func removeAllSubviews() {
         self.value.subviews.forEach { (subView) in
@@ -43,7 +43,7 @@ public extension QPNamespace where T: UIView {
 }
 
 // layout
-public extension QPNamespace where T: UIView {
+public extension KoalaNamespace where T: UIView {
     
     var left: CGFloat {
         set {
