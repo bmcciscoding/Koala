@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		D3F768E10843748D566582B4 /* Pods_Koala_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9E50167A0C915ACEDBEB18 /* Pods_Koala_Example.framework */; };
+		F15A5AF523019B3800E251F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A5AF423019B3800E251F9 /* ViewController.swift */; };
+		F15A5AF723019B4700E251F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A5AF623019B4700E251F9 /* AppDelegate.swift */; };
+		F15A5AFD23019B5000E251F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15A5AFA23019B5000E251F9 /* LaunchScreen.xib */; };
+		F15A5B0023019BA500E251F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15A5AFE23019BA500E251F9 /* Main.storyboard */; };
 		F1D3D72222A6C31600F7D715 /* UIApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D72022A6C31600F7D715 /* UIApplicationTests.swift */; };
 		FEC4E0910CA08B9A2A043AAF /* Pods_Koala_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35031B017E403926B7A61AFA /* Pods_Koala_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -36,22 +35,19 @@
 		416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Example/Pods-Koala_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Koala_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koala_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Koala_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Koala_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		851F20740DB60F169D43B739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CDB04435766BDF95719CE1F /* SwiftExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftExtensions.podspec; path = ../SwiftExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC57080DF95A98775E449936 /* Pods-Koala_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Tests/Pods-Koala_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Tests/Pods-SwiftExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koala_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koala_Example/Pods-Koala_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E01698FC89AA7DFC45642CB1 /* Pods-SwiftExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftExtensions_Example/Pods-SwiftExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF9E50167A0C915ACEDBEB18 /* Pods_Koala_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koala_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A5AF423019B3800E251F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Koala/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		F15A5AF623019B4700E251F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Koala/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		F15A5AFB23019B5000E251F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Koala/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		F15A5AFF23019BA500E251F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Koala/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		F1D3D72022A6C31600F7D715 /* UIApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +104,10 @@
 		607FACD21AFB9204008FA782 /* Example for Koala */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				F15A5AFE23019BA500E251F9 /* Main.storyboard */,
+				F15A5AFA23019B5000E251F9 /* LaunchScreen.xib */,
+				F15A5AF623019B4700E251F9 /* AppDelegate.swift */,
+				F15A5AF423019B3800E251F9 /* ViewController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for Koala";
@@ -160,8 +155,6 @@
 			children = (
 				E01698FC89AA7DFC45642CB1 /* Pods-SwiftExtensions_Example.debug.xcconfig */,
 				24C6D6A4058FB54ECA36ABA5 /* Pods-SwiftExtensions_Example.release.xcconfig */,
-				CC8036A765EAE4E40A54DB00 /* Pods-SwiftExtensions_Tests.debug.xcconfig */,
-				7EE80E4A6B42E2E7329C5FDD /* Pods-SwiftExtensions_Tests.release.xcconfig */,
 				416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */,
 				D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */,
 				16D759857E01AEFAD4F0BF12 /* Pods-Koala_Tests.debug.xcconfig */,
@@ -224,7 +217,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1030;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -258,9 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				F15A5AFD23019B5000E251F9 /* LaunchScreen.xib in Resources */,
+				F15A5B0023019BA500E251F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F15A5AF723019B4700E251F9 /* AppDelegate.swift in Sources */,
+				F15A5AF523019B3800E251F9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,20 +370,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		F15A5AFA23019B5000E251F9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				F15A5AFB23019B5000E251F9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F15A5AFE23019BA500E251F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15A5AFF23019BA500E251F9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,11 +493,13 @@
 			baseConfigurationReference = 416FFEB7F7B8683EBA3BD94C /* Pods-Koala_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftExtensions/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Koala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -516,7 +510,8 @@
 			baseConfigurationReference = D9C63CBBA73D6CADD10C4BD8 /* Pods-Koala_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftExtensions/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Koala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -530,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16D759857E01AEFAD4F0BF12 /* Pods-Koala_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC57080DF95A98775E449936 /* Pods-Koala_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
