@@ -122,7 +122,6 @@ public typealias OnTap = (UIView, UITapGestureRecognizer) -> Void
 
 public extension KoalaNamespace where T: UIView {
     
-    
     func onTap(_ closure: @escaping OnTap) {
         let ges = UITapGestureRecognizer.init { (gesture) in  
             closure(self.value, gesture as! UITapGestureRecognizer)
@@ -156,3 +155,5 @@ extension UIGestureRecognizer {
     }
     
 }
+
+

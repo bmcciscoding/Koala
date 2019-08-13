@@ -9,8 +9,8 @@ import Foundation
 
 public extension KoalaNamespace where T: UIControl {
     
-    func addEvent(_ event: UIControlEvents, 
-                  _ completeHandler: @escaping UIControlEventCompletionHandler) {
+    func onEvent(_ event: UIControlEvents, 
+                 _ completeHandler: @escaping UIControlEventCompletionHandler) {
         
         let target = UIControlTarget.init(event: event, completionHandler: completeHandler)
         self.value.addTarget(target, 
