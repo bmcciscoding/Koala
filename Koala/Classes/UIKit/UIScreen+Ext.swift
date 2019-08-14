@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension KoalaNamespace where T: UIScreen {
+public extension KoalaNamespace where T: UIScreen {
     
     static var width: CGFloat {
         return UIScreen.main.bounds.width

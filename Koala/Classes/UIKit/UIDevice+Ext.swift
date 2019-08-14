@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension KoalaNamespace where T: UIDevice {
+public extension KoalaNamespace where T: UIDevice {
     
     static var isiPhoneXModel: Bool {
         var name = "simulatar"
