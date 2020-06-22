@@ -22,3 +22,13 @@ public extension UIViewController {
     }
     
 }
+
+public extension String {
+    var base64: String {
+        if let data = Data.init(base64Encoded: self) {
+            let string = String.init(data: data, encoding: .utf8) ?? ""
+            return string
+        }
+        return ""
+    }
+}
