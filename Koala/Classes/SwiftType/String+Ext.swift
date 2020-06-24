@@ -28,7 +28,16 @@ public extension KoalaNamespace where T == String {
     subscript (bounds: Range<Int>) -> String {
         let left = self.value.index(self.value.startIndex, offsetBy: bounds.lowerBound)
         let right = self.value.index(self.value.startIndex, offsetBy: bounds.upperBound)
+        let s = self.value[left..<right]
+        return String.init(s)
+    }
+    
+    subscript (bounds: ClosedRange<Int>) -> String {
+        let left = self.value.index(self.value.startIndex, offsetBy: bounds.lowerBound)
+        let right = self.value.index(self.value.startIndex, offsetBy: bounds.upperBound)
         let s = self.value[left...right]
         return String.init(s)
     }
+    
+    
 }
