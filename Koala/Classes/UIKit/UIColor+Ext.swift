@@ -10,8 +10,15 @@ import Foundation
 public extension KoalaNamespace where T == UIColor {
     
     static func rgba(_ hexString: String, _ alpha: CGFloat = 1.0) -> UIColor {
-        let scanner = Scanner.init(string: hexString)
         var hex: UInt64 = 0
+        var string = hexString
+        if (string.hasPrefix("#")) {
+            string.removeFirst(1)
+        }
+        if (string.hasSuffix("0x")) {
+            string.removeFirst(2)
+        }
+        let scanner = Scanner.init(string: string)
         if scanner.scanHexInt64(&hex) {
             return rgba(Int(hex), alpha)
         }
@@ -26,9 +33,9 @@ public extension KoalaNamespace where T == UIColor {
     }
     
     var invert: UIColor {
-        var r: CGFloat = 0, g:CGFloat = 0, b:CGFloat = 0, a:CGFloat = 0
-        self.value.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return UIColor.init(red: 1-r, green: 1-g, blue: 1-g, alpha: 1-a)
+        var r: CGFloat = 0, g:CGFloat = 0, b:CGFloat = 0
+        self.value.getRed(&r, green: &g, blue: &b, alpha: nil)
+        return UIColor.init(red: 1-r, green: 1-g, blue: 1-g, alpha: 1)
     }
     
 }

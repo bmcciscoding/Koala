@@ -71,15 +71,5 @@ public extension KoalaNamespace where T == String {
     }
 }
 
-public extension KoalaNamespace where T == String {
-    
-    subscript(at: Int) -> String {
-        let str = self.value
-        let index = str.index(str.startIndex, offsetBy: at)
-        let c = str[index]
-        return String.init(c)
-    }
-}
-
 
 
