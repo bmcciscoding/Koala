@@ -14,6 +14,10 @@ public extension Optional {
             case .some(_): return false
         }
     }
+    
+    var isNotNil: Bool {
+        return !self.isNil
+    }
 }
 
 // MARK: - Int

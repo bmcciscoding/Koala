@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension KoalaNamespace where T == UIWindow {
+public extension KoalaNamespace where T == UIWindow {
     static var keyWindow: UIWindow {
         return UIApplication.shared.keyWindow!
     }
