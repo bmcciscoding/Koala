@@ -40,6 +40,27 @@ public extension KoalaNamespace where T: UIView {
         }
         return nil
     }
+    
+    typealias ShadowParams = (x: CGFloat, y: CGFloat, blur: CGFloat, spread: CGFloat, color: UIColor, alpha: CGFloat)
+    func shadow(_ params: ShadowParams) {
+        let layer = self.value.layer
+        layer.shadowOffset = CGSize.init(width: params.x, height: params.y)
+        layer.shadowRadius = params.blur
+        layer.shadowOpacity = Float(params.alpha)
+        if params.spread != 0 {
+            layer.shadowPath = {
+                let dx = -params.spread
+                let rect = self.value.bounds.insetBy(dx: dx, dy: dx)
+                return UIBezierPath.init(rect: rect).cgPath
+            }()
+        } else {
+            layer.shadowPath = nil
+        }
+    }
+    
+    func shadow(_ x: CGFloat, _ y: CGFloat, _ blur: CGFloat, _ spread: CGFloat, _ color: UIColor, _ alpha: CGFloat) {
+        return self.shadow((x, y, blur, spread, color, alpha))
+    }
 }
 
 // layout
