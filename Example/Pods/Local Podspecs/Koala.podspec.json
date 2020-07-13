@@ -1,6 +1,6 @@
 {
   "name": "Koala",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "快速开发 Swift iOS App.",
   "description": "This is a swift extensions for developing iOS App.",
   "homepage": "https://github.com/bmcciscoding/Koala.git",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/bmcciscoding/Koala.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "swift_versions": "4.0",
   "source_files": "Koala/Classes/**/*",

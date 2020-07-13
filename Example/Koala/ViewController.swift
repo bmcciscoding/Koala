@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let btn = UIButton.init()
         btn.backgroundColor = UIColor.blue
         btn.frame = CGRect.init(x: 0, y: 0, width: 100, height: 100)
-        btn.kl.addEvent(.touchUpInside) { (sender) in
+        btn.kl.onEvent(.touchUpInside) { (sender) in
             print("Xxxx")
         }
         

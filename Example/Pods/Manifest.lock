@@ -1,5 +1,5 @@
 PODS:
-  - Koala (0.0.2)
+  - Koala (0.0.4)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -9,7 +9,7 @@ DEPENDENCIES:
   - YYCategories (~> 1.0.4)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - YYCategories
 
 EXTERNAL SOURCES:
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Koala: 5fbc04978649c8c2c07d74790abfa60fcba1999b
+  Koala: 4bc7e1eac99ac9a89be26f4c2c7640831d0f8b4c
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 7bc884cd0d26abb17fbe230574e6a7fa2e5a1bb6
+PODFILE CHECKSUM: 4fe1a3fae99c3088443aeb84a345ef9b3c77210b
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4
