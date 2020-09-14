@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSArray+Koala.h"
 
 FOUNDATION_EXPORT double KoalaVersionNumber;
 FOUNDATION_EXPORT const unsigned char KoalaVersionString[];
