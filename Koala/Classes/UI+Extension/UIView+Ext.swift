@@ -9,6 +9,10 @@ import Foundation
 
 public extension KoalaNamespace where T: UIView {
     
+    static var new: UIView {
+        return UIView.init()
+    }
+    
     var snapshot: UIImage? {
         
         UIGraphicsBeginImageContext(self.value.bounds.size)
@@ -175,6 +179,48 @@ extension UIGestureRecognizer {
         self.handler?(ges)
     }
     
+}
+
+public extension KoalaNamespace where T: CALayer {
+    private var OutBorderName: String {
+        return "kl.out.border"
+    }
+    
+    var outBorderWidth: CGFloat {
+        set {
+            self.outLayer.frame = self.value.bounds.insetBy(dx: -newValue, dy: -newValue)
+            self.outLayer.borderWidth = newValue
+        }
+        get {
+            return self.outLayer.borderWidth ?? 0
+        }
+    }
+    var outBorderColor: CGColor? {
+        set {
+            self.outLayer.borderColor = newValue
+        }
+        get {
+            return self.outLayer.borderColor
+        }
+    }
+    
+    private var outLayer: CALayer {
+        var layer: CALayer? = nil
+        self.value.sublayers?.forEach({ (sub) in
+            if sub.name == self.OutBorderName {
+                layer = sub
+            }
+        })
+        if let l = layer {
+            return l
+        } else {
+            let newLayer = CALayer.init()
+            newLayer.name = self.OutBorderName
+            newLayer.frame = self.value.bounds
+            self.value.addSublayer(newLayer)
+            return newLayer
+        }
+    }
 }
 
 

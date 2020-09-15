@@ -16,24 +16,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.kl.rgba(0x333333)
-//        
-        let btn = UIButton.init()
-        btn.backgroundColor = UIColor.blue
-        btn.frame = CGRect.init(x: 0, y: 0, width: 100, height: 100)
-        btn.kl.onEvent(.touchUpInside) { (sender) in
-            print("Xxxx")
-        }
-        
-        let str = "012345"
-        print(str.kl[0])
-        print(str.kl[1])
-        print(str.kl[2])
-        
-        self.view.addSubview(btn)
-        
-        let date = Date.init()
-        print(date.kl.year)
 
+        let v = UIView.kl.new
+        v.frame = CGRect.init(x: 20, y: 40, width: 20, height: 20)
+        v.layer.kl.outBorderColor = UIColor.systemRed.cgColor
+        v.layer.kl.outBorderWidth = 5
+        self.view.addSubview(v)
+        
+        let v2 = UIView.kl.new
+        v2.frame = CGRect.init(x: 60, y: 40, width: 20, height: 20)
+        v2.layer.borderColor = UIColor.systemRed.cgColor
+        v2.layer.borderWidth = 5
+        self.view.addSubview(v2)
         
     }
 
