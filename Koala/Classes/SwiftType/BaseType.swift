@@ -36,6 +36,19 @@ public extension KoalaNamespace where T == Int {
     var cgFloat: CGFloat {
         return CGFloat(self.value)
     }
+
+    var int64: Int64 {
+        return Int64(self.value)
+    }
+}
+
+public extension KoalaNamespace where T == Int {
+
+    var kb: String {
+        let formatter = ByteCountFormatter.init()
+        formatter.allowedUnits = [.useKB]
+        return formatter.string(fromByteCount: self.int64)
+    }
 }
 
 // MARK: - Double
